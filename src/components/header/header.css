@@ -1,6 +1,6 @@
 header{
     width: 100vw;
-    margin-top: 7rem;
+    margin-top: 2rem;
     overflow: hidden;
 }
 
@@ -17,4 +17,66 @@ header{
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+}
+
+/* ===== HEADER SOCIALS / Icones linkedin e github ===== */
+
+.header-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header-socials::after{
+    content: '';
+    width: 3px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ===== ME ===== */
+
+.me img{
+    width: 22rem;
+    border-radius: 5rem 1rem;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===== SCROOL DOWN ===== */
+
+.scrool-down{
+    position: absolute;
+    right: -2.4rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    
+}
+
+/* ===== MEDIA QUERIES ( MEDIUM DEVICES ) / Responsividade ( Dispositivos Médios ) /  ===== */
+
+@media screen and (max-width:1024px){
+    header{
+        
+    }
+}
+
+
+/* ===== MEDIA QUERIES ( MEDIUM DEVICES ) / Responsividade ( Dispositivos Médios ) /  ===== */
+
+@media screen and (max-width:600px){
+    header{
+        height: 100vh;
+    }
+
+    .header-socials, .scrool-down{
+        display: none;
+    }
+
 }
