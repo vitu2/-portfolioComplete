@@ -22,6 +22,7 @@ header{
 /* ===== HEADER SOCIALS / Icones linkedin e github ===== */
 
 .header-socials{
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +57,7 @@ header{
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    
+    font-size: 20px;
 }
 
 /* ===== MEDIA QUERIES ( MEDIUM DEVICES ) / Responsividade ( Dispositivos Médios ) /  ===== */
@@ -72,7 +73,6 @@ header{
 
 @media screen and (max-width:600px){
     header{
-        height: 100vh;
     }
 
     .header-socials, .scrool-down{

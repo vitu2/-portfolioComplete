@@ -17,6 +17,7 @@ const Header = () => {
         <CTA />
         <div className="me">
           <img src={ME} alt="Programmer-code" />
+          <a href="https://www.freepik.com/free-vector/javascript-frameworks-concept-illustration_6184436.htm#query=programming&position=23&from_view=search&track=sph">Image by storyset</a> on Freepik
         </div>
         </Fade>
         <HeaderSocials />
