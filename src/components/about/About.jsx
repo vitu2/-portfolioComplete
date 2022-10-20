@@ -14,7 +14,7 @@ const About = () => {
         <div className="about-me">
           <div className="about-me-img">
             <img src={MeAbout} alt="" />
-            <a href="https://www.freepik.com/free-vector/programmer-concept-illustration_8775515.htm#query=programming&position=36&from_view=search&track=sph">Image by storyset</a> on Freepik
+            {/* <a href="https://www.freepik.com/free-vector/programmer-concept-illustration_8775515.htm#query=programming&position=36&from_view=search&track=sph">Image by storyset</a> on Freepik */}
           </div>
         </div>
 
