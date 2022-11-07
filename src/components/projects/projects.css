@@ -1,0 +1,11 @@
+.card-container{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+.project-Cards{
+    width: 100vw;
+    text-align: center;
+    padding: 4px;
+}

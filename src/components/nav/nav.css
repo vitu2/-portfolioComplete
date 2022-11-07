@@ -2,20 +2,22 @@ nav{
     background: rgba(0, 0, 0, 0.6);
     width: max-content;
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 0.7rem 1.1rem;
     z-index: 2;
     position: fixed;
-    left: 50%;
-    top: 85%;
+    left: 47%;
+    top: 65%;
     transform: translateX(-50%);
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    transform: rotate(270deg);
 }
 
 nav a{
     background: transparent;
+    transform: rotate(90deg);
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
@@ -32,4 +34,12 @@ nav a:hover{
 nav a.active{
     background: var(--color-bg);
     color: var(--color-white);
+}
+
+/* ===== MEDIA QUERIES ( MEDIUM DEVICES ) / Responsividade ( Dispositivos Médios ) /  ===== */
+
+@media screen and (max-width:600px) {
+    nav{
+        left: 42%;;
+    }
 }

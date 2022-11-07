@@ -73,7 +73,7 @@
 
 /* ===== MEDIA QUERIES ( MEDIUM DEVICES ) / Responsividade ( Dispositivos Médios ) /  ===== */
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1024px){
     .container-about{
         grid-template-columns: 1fr;
         gap: 0;

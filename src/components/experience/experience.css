@@ -1,10 +1,10 @@
-.container-experience{
+.container-experience {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
-.container-experience > div{
+.container-experience>div {
     background: var(--color-bg-variant);
     padding: 2.5rem 5rem;
     border-radius: 2rem;
@@ -12,30 +12,63 @@
     transition: var(--transition);
 }
 
-.container-experience > div:hover{
+.container-experience>div:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
-.container-experience > div h3{
+.container-experience>div h3 {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
 }
 
-.experience-content{
+.experience-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
 
-.experience-details{
+.experience-details {
     display: flex;
     gap: 1rem;
 }
 
-.experience-details-icon{
+.experience-details-icon {
     margin-top: 6px;
     color: var(--color-primary);
+}
+
+/* ===== MEDIA QUERIES ( MEDIUM DEVICES ) / Responsividade ( Dispositivos Médios ) /  ===== */
+
+@media screen and (max-width:1024px) {
+    .container-experience{
+        grid-template-columns: 1fr;
+    }
+
+    .container-experience > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience-content{
+        padding: 1rem;
+    }
+
+}
+
+
+/* ===== MEDIA QUERIES ( SMALL DEVICES ) / Responsividade ( Dispositivos Pequenos ) /  ===== */
+
+@media screen and (max-width:600px) {
+    .container-experience{
+        gap: 1rem;
+    }
+
+    .container-experience > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
 }
