@@ -6,6 +6,7 @@ footer{
     margin-top: 7rem;
     z-index: 100;
     position: relative;
+    margin-top: 100px;
 }
 
 footer a {
@@ -33,6 +34,26 @@ footer a {
     .permalinks{
         flex-direction: column;
         gap: 1.5rem;      
+    }
+
+    footer{
+        min-height: 40vh;
+        z-index: -1111;
+    }
+    
+}
+
+/* ===== MEDIA QUERIES ( SMALL DEVICES ) / Responsividade ( Dispositivos Pequenos ) /  ===== */
+@media screen and (min-width:600px) {
+
+    .permalinks{
+        flex-direction: column;
+        gap: 1.5rem;      
+    }
+
+    footer{
+        min-height: 40vh;
+        z-index: 100;
     }
     
 }

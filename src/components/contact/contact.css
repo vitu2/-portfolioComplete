@@ -1,8 +1,8 @@
 #contact{
     margin-left: auto;
     margin-right: auto;
-    width: 70vw;
-    height: 80vh;
+    min-width: 70vw;
+    min-height: 80vh;
 }
 
 .container.contact-container{
@@ -38,7 +38,7 @@ form{
 }
 
 input, textarea{
-    width: 100%;
+    min-width: 100%;
     padding: 1.2rem;
     border-radius: 0.5rem;
     background: transparent;
@@ -60,8 +60,8 @@ button{
 @media screen and (max-width:1024px) {
 
     #contact{
-        width: 90vw;
-        height: 70vh;
+        min-width: 90vw;
+        min-height: 70vh;
     }
 
     .container.contact-container{
@@ -71,7 +71,7 @@ button{
     }
 
     .contact-option{
-        width: 60vw;
+        min-width: 60vw;
         margin-left: auto;
         margin-right: auto;
     }
@@ -82,20 +82,20 @@ button{
 @media screen and (max-width:600px) {
 
     #contact{
-        width: 90vw;
-        height: 95vh;
-        margin-bottom: 4rem;
+        min-width: 90vw;
+        min-height: 95vh;
+
     }
 
     .container.contact-container{
         display: grid;
         grid-template-columns: 1fr;
         gap: 50px;
-        width: 85vw;
+        min-width: 85vw;
     }
 
     .contact-option{
-        width: 85vw;
+        min-width: 85vw;
         margin-left: auto;
         margin-right: auto;
     }
