@@ -12,8 +12,8 @@ import './App.css'
 const App = () => {
   return (
     <>
-      <Header />
       <Nav />
+      <Header />
       <About />
       <Experience />
       {/* <Projects /> */}
