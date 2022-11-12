@@ -6,7 +6,7 @@ nav{
     z-index: 2;
     position: fixed;
     left: 47%;
-    top: 65%;
+    top: 70%;
     transform: translateX(-50%);
     display: flex;
     gap: 0.8rem;
